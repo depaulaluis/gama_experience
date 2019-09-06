@@ -6,7 +6,7 @@ class Entrada extends Component {
         <div>
         <span>Entrada</span>
         <input type="text" value={this.props.valor} onChange={this.props.onInputChange} />
-        <button>Procurar</button>
+        <button onClick={this.props.onButtonClick}>Procurar</button>
         </div>
         )
     }
